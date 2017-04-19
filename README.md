@@ -1,6 +1,12 @@
 # Database Project
-Project Database 
+Project Overwatch Database require nodejs 
 
-how to run project
-first time when pull or clone in commandline :npm install
+# How to run project
+## First time when pull or clone :
+```
+npm install
+```
+## Start client server project :
+```
 npm start
+```
