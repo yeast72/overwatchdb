@@ -1,0 +1,16 @@
+:global {
+    body{
+        font-size: 15px;
+    }
+
+    .container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        empty-cells: show;
+    }
+}
