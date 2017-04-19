@@ -41,18 +41,30 @@ class Tournaments extends Component {
           <table className="table table-condensed">
             <thead>
               <tr>
-                <th>No.</th>
-                <th>name</th>
-                <th>price</th>
+                <th>TourID</th>
+                <th>TourName</th>
+                <th>Price</th>
+                <th>WinnerTeamID</th>
+                <th>Tier</th>
+                <th>Location</th>
+                <th>OrganizerID</th>
+                <th>StartDate</th>
+                <th>EndDate</th>
               </tr>
             </thead>
             <tbody>
               {
                 this.props.tournaments.map((tournament) => (
-                  <TableTournament key={tournament.id}
-                    id={tournament.id}
-                    title={tournament.title}
-                    content={tournament.content} />
+                  <TableTournament key={tournament.TourID}
+                    TourID={tournament.TourID}
+                    TourName={tournament.TourName}
+                    Price={tournament.Price}
+                    WinnerTeamID={tournament.WinnerTeamID}
+                    Tier={tournament.Tier}
+                    Location={tournament.Location}
+                    OrganizerID={tournament.OrganizerID}
+                    StartDate={tournament.StartDate}
+                    EndDate={tournament.EndDate} />
                 ))
               }
             </tbody>

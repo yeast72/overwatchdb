@@ -1,9 +1,26 @@
 {
     "tournaments": [
         {
-            "id": 1,
-            "title": "test page#1",
-            "content": "TEST PAGE CONTENT"
+            "TourID": 1,
+            "TourName": "Overwatch Open",
+            "Price": 300000,
+            "WinnerTeamID": "TM006",
+            "Tier": "Premier",
+            "Locatuin": "USA",
+            "OrganizerID": "Org01",
+            "StartDate": "2016-12-16",
+            "EndDate": "2016-12-18"
+        },
+        {
+            "TourID": 2,
+            "TourName": "2016 ESL Overwatch Atlantic Showdown - Gamescom",
+            "Price": 191800,
+            "WinnerTeamID": "TM002",
+            "Tier": "Premier",
+            "Locatuin": "DEU",
+            "OrganizerID": "Org02",
+            "StartDate": "2016-10-07",
+            "EndDate": "2016-12-03"
         }
     ]
 }

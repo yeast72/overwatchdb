@@ -2,13 +2,19 @@ import React, { Component } from 'react'
 
 export default class TableTournament extends Component {
     render() {
-        const { id, title, content } = this.props
+        const { TourID, TourName, Price, WinnerTeamID, Tier, Location, OrganizerID, StartDate, EndDate } = this.props
 
         return (
             <tr>
-                <th>{id}</th>
-                <td>{title}</td>
-                <td>{content}</td>
+                <th>{TourID}</th>
+                <td>{TourName}</td>
+                <td>{Price}</td>
+                <td>{WinnerTeamID}</td>
+                <td>{Tier}</td>
+                <td>{Location}</td>
+                <td>{OrganizerID}</td>
+                <td>{StartDate}</td>
+                <td>{EndDate}</td>
             </tr>
         )
     }
